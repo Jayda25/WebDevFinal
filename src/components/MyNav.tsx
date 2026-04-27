@@ -3,7 +3,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const MyNav: React.FC = () => {
-  return (
+  
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/home">Recipe Blog</Navbar.Brand>
@@ -18,7 +18,6 @@ const MyNav: React.FC = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
 };
 
 export default MyNav;
