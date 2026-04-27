@@ -21,7 +21,7 @@ const App: React.FC = () => {
     <Router>
       <MyNav />
       <Routes>
-        <Route path="/home" element={<Home recipes={recipes} />} />
+        <Route path="/" element={<Home recipes={recipes} />} />
         <Route path="/recipes" element={<Recipes recipes={recipes} setRecipes={setRecipes} />} />
         <Route path="/newsletter" element={<Newsletter />} />
         <Route path="/about" element={<About />} />
